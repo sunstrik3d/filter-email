@@ -30,11 +30,12 @@ NC='\033[0m'
 
 header(){
 
-  printf " ${LIGHTRED}   _  __                __        _______        ${NC}\n"
-  printf " ${LIGHTRED}  / |/ __ _____ ___ ___/ ___ ____/  _/ _ \  ${NC}\n"
-  printf " ${LIGHTRED} /    / // / -_/ _ / _  / -_/ ___/ // // / ${NC}\n"
-  printf " ${LIGHTRED}/_/|_/\_, /\__/_//_\_,_/\__/_/ /___/____/  ${NC}\n"
-  printf " ${LIGHTRED}     /___/                                  ${NC}\n"
+ printf "\n";		
+printf	"\e[92m    _____            _____ ____ 	${NC}\n"		
+printf	"\e[92m   / ___/__  ______ |__  // __ \	${NC}\n"		
+printf	"\e[92m   \__ \/ / / / __ \ /_ </ / / /	${NC}\n"		
+printf	"\e[92m  ___/ / /_/ / / / /__/ / /_/ /	${NC}\n"		
+printf	"\e[92m /____/\__,_/_/ /_/____/_____/  Filter Email v4.0${NC}\n"
   
  
 }
